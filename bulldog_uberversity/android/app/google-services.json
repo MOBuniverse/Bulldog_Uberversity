@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17411078156",
+    "project_id": "bulldogs-uberversity",
+    "storage_bucket": "bulldogs-uberversity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17411078156:android:90541ca9bc86a5a25a5629",
+        "android_client_info": {
+          "package_name": "com.maddog.uberversityapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxTnloC3iSbD61zVh1nZbGYhs0AbMgrxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
