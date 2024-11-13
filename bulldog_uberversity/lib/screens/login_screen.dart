@@ -57,11 +57,12 @@ class _LoginScreenState extends State<LoginScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           //logo
-          Icon(
-            Icons.lock_open_rounded,
-            size: 100,
-            color: Theme.of(context).colorScheme.inversePrimary,
+          Image.asset('Logo/Bulldog_logo/Bulldog_Logo.png',
+          width: 250, // adjust width as needed
+          height: 250, // adjust height as needed
+          fit: BoxFit.cover,
           ),
+          
           const SizedBox(height: 25),
 
           //message, slogan
