@@ -21,11 +21,13 @@ class MyDrawer extends StatelessWidget{
           // app logo
           Padding(
             padding: const EdgeInsets.only(top: 100.0),
-            child: Icon(
-              Icons.lock_open_rounded,
-              size: 80,
-              color: Theme.of(context).colorScheme.inversePrimary,
-            ),
+            child: 
+            Image.asset(
+              'Logo/Bulldog_logo/Bulldog_Logo.png',
+              width: 100, // adjust width as needed
+              height: 100, // adjust height as needed
+              fit: BoxFit.cover,
+             ),
           ),
 
           Padding(
